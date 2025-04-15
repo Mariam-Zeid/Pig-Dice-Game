@@ -115,7 +115,7 @@ holdBtn.addEventListener("click", () => {
       scores[currentPlayer];
 
     // 2. Check the current player's score > 100. so, finish the game
-    if (scores[currentPlayer] >= 20) {
+    if (scores[currentPlayer] >= 100) {
       document
         .querySelector(`.player--${currentPlayer}`)
         .classList.add("player--winner");
